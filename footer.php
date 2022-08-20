@@ -48,34 +48,34 @@
           <div class="p-footer__sitemap-wrap">
             <ul class="p-footer__sitemap-left">
               <li><a href="/"><span>ホーム</span></a></li>
-              <li><a href="page-concept.html"><span>コンセプト</span>特徴とポイント</a></li>
-              <li><a href="index.html#item"><span>商品情報</span>商品・ソリューション</a>
+              <li><a href="<?php echo home_url(); ?>/concept"><span>コンセプト</span>特徴とポイント</a></li>
+              <li><a href="<?php echo home_url(); ?>/#item"><span>商品情報</span>商品・ソリューション</a>
                 <ul class="p-footer__sitemap-service-contents">
-                  <li><a href="page-scada.html">SCADA システム「サガネ係長の IoT」</a></li>
-                  <li><a href="page-tolesabi.html">品質トレサビシステム</a></li>
-                  <li><a href="page-automation.html">自動化関連装置</a></li>
+                  <li><a href="<?php echo home_url(); ?>/scada">SCADA システム「サガネ係長の IoT」</a></li>
+                  <li><a href="<?php echo home_url(); ?>/tolesabi">品質トレサビシステム</a></li>
+                  <li><a href="<?php echo home_url(); ?>/automation">自動化関連装置</a></li>
                 </ul>
               </li>
               <li><a href="index.html#service"><span>サービス</span>サービス & サポートメニュー</a>
                 <ul class="p-footer__sitemap-service-contents">
-                  <li><a href="page-service.html#item01">導入支援無償サポート</a></li>
-                  <li><a href="page-service.html#item02">運営支援サポートサービス</a></li>
+                  <li><a href="<?php echo home_url(); ?>/service#item01">導入支援無償サポート</a></li>
+                  <li><a href="<?php echo home_url(); ?>/service#item02">運営支援サポートサービス</a></li>
                 </ul>
               </li>
             </ul>
             <ul class="p-footer__sitemap-right">
-              <li><a href="archive-post.html#post"><span>事例とノウハウ</span>導入事例のご紹介</a>
+              <li><span>事例とノウハウ</span>導入事例のご紹介
                 <ul class="p-footer__sitemap-service-contents">
-                  <li><a href="archive-post.html#post">記事で読む導入事例</a></li>
-                  <li><a href="archive-movei.html#movei">動画でみる活用事例</a></li>
-                  <li><a href="archive-column.html#column">ノウハウ・コラム</a></li>
+                  <li><a href="<?php echo home_url(); ?>/works">記事で読む導入事例</a></li>
+                  <li><a href="<?php echo home_url(); ?>/movie">動画でみる活用事例</a></li>
+                  <li><a href="<?php echo home_url(); ?>/column">ノウハウ・コラム</a></li>
                 </ul>
               </li>
               <li><a href="https://www.nissin-mfg.co.jp/company/history/#new_tab" target="_blank"><span>企業情報</span> </a></li>
-              <li><a href="page-document-request.html"><span>資料請求</span> </a></li>
-              <li><a href="archive-news.html"><span>お知らせ</span> </a></li>
-              <li><a href="page-contact.html"><span>お問合せ</span> </a></li>
-              <li><a href="page-policy.html"><span>プライバシーポリシー</span>個人情報保護方針</a></li>
+              <li><a href="<?php echo home_url(); ?>/document_request"><span>資料請求</span> </a></li>
+              <li><a href="<?php echo home_url(); ?>/category/news"><span>お知らせ</span> </a></li>
+              <li><a href="<?php echo home_url(); ?>/contact"><span>お問合せ</span> </a></li>
+              <li><a href="<?php echo home_url(); ?>/policy"><span>プライバシーポリシー</span>個人情報保護方針</a></li>
             </ul>
             <!-- <div class="logo-facebook">
               <a href="">

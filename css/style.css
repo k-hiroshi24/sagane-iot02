@@ -54,6 +54,121 @@ body {
 	padding: 10px 40px;
 	width: 100%;
 }
+
+/* 資料請求のカテゴリースタイル */
+.checkbox__cat-wrap input[type="checkbox"].checkbox-item {
+	display: none;
+}
+
+.checkbox__cat-wrap label {
+	display: inline-block;
+}
+
+/* spanの左側にボタンを配置するスペースを作る */
+.checkbox__cat-wrap .checkbox-item + span {
+	padding-left: 2em;
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+}
+
+/* 各パーツを作成 */
+.checkbox__cat-wrap .checkbox-item + span::after,
+.checkbox__cat-wrap .checkbox-item + span::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border: 1px solid #aaaaaa;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	left: 0;
+}
+
+/* after上書き */
+.checkbox__cat-wrap .checkbox-item + span::after {
+	opacity: 0;
+	width: 10px;
+	height: 15px;
+	transform: rotate(45deg);
+	left: 5px;
+	border: none;
+	border-right: 3px solid rgb(47, 147, 184);
+	border-bottom: 3px solid rgb(47, 147, 184);
+}
+
+/*
+	checked状態
+	文字のcolorとボタンのopacityを変更
+  */
+.checkbox__cat-wrap .checkbox-item:checked + span {
+	color: rgb(47, 147, 184);
+}
+
+.checkbox__cat-wrap .checkbox-item:checked + span::after {
+	opacity: 1;
+}
+.mw_wp_form .horizontal-item + .horizontal-item {
+	margin-left: 0px;
+}
+
+/* 個人情報取扱同意のチェックボックススタイル */
+.checkbox__item input[type="checkbox"].checkbox-item {
+	display: none;
+}
+
+.checkbox__item label {
+	display: inline-block;
+}
+
+/* spanの左側にボタンを配置するスペースを作る */
+.checkbox__item .checkbox-item + span {
+	padding-left: 2em;
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+	font-size: 16px;
+}
+
+/* 各パーツを作成 */
+.checkbox__item .checkbox-item + span::after,
+.checkbox__item .checkbox-item + span::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border: 1px solid #aaaaaa;
+	width: 20px;
+	height: 20px;
+	top: -10px;
+	left: 0;
+}
+
+/* after上書き */
+.checkbox__item .checkbox-item + span::after {
+	opacity: 0;
+	width: 10px;
+	height: 15px;
+	transform: rotate(45deg);
+	left: 5px;
+	border: none;
+	border-right: 3px solid rgb(47, 147, 184);
+	border-bottom: 3px solid rgb(47, 147, 184);
+}
+
+/*
+	checked状態
+	文字のcolorとボタンのopacityを変更
+  */
+.checkbox__item .checkbox-item:checked + span {
+	color: rgb(47, 147, 184);
+}
+
+.checkbox__item .checkbox-item:checked + span::after {
+	opacity: 1;
+}
+
+
+
 /* 404 */
 .p-404 {
 	text-align: center;
@@ -75,13 +190,14 @@ body {
 }
 /* 404 end */
 
-.video-wrapper{
+/* YouTube埋め込み */
+.video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
-.video-wrapper iframe{
+.video-wrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -89,16 +205,16 @@ body {
 	height: 100%;
 }
 
-.video-cards{
+.video-cards {
 	display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    margin-top: 89px;
-    max-width: 100%;
-    width: 1100px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-top: 89px;
+	max-width: 100%;
+	width: 1100px;
 }
 
 /* リキッドレイアウト対応 */
@@ -215,14 +331,14 @@ input,
 button,
 select,
 textarea {
-	/* -webkit-appearance: none;
+	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 	background: transparent;
 	border: none;
 	border-radius: 0;
 	font: inherit;
-	outline: none; */
+	outline: none;
 }
 
 textarea {
@@ -231,7 +347,7 @@ textarea {
 
 input[type="checkbox"],
 input[type="radio"] {
-	/* display: none; */
+	display: none;
 }
 
 input[type="submit"],
@@ -1952,6 +2068,10 @@ select::-ms-expand {
 	margin-top: 70px;
 	width: 100%;
 }
+.q-textarea textarea {
+	width: 100%;
+	border: 1px solid #c3c3c3;
+}
 
 .q-textarea-box {
 	margin-top: 34px;
@@ -1960,6 +2080,7 @@ select::-ms-expand {
 .title-q {
 	display: inline-block;
 	font-size: 19px;
+	margin-bottom: 10px;
 }
 
 .p-contact-page__c-form-inner label:not(:last-child) {
@@ -2093,10 +2214,13 @@ input.form__input:checked ~ .checkbox__label::after {
 .submit-btn {
 	position: relative;
 	z-index: 100;
+	top: 10px;
 }
 
 .submit-wrap02 {
 	position: relative;
+	display: flex;
+	
 }
 
 /* .submit-wrap02::after {
@@ -2131,6 +2255,7 @@ input.form__input:checked ~ .checkbox__label::after {
 .submit__form {
 	background-color: #3084bd;
 	clip-path: polygon(10% 0, 100% 0, 100% 63%, 92% 100%, 0 100%, 0 30%);
+	-webkit-clip-path: polygon(10% 0, 100% 0, 100% 63%, 92% 100%, 0 100%, 0 30%);
 	border: none;
 	color: #fff;
 	display: block;

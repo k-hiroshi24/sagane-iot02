@@ -91,7 +91,7 @@
           </label>
         </div>
       </div>
-    </div>
-  </section> -->
+    </div> -->
+  </section>
 
       </div><?php get_footer(); ?>

@@ -71,11 +71,11 @@
               </div>
               <h4 class="p-post-card__title"><?php echo CFS()->get('column_title'); ?></h4>
               <p class="p-post-card__text"><?php echo mb_substr((post_custom("column_contents")), 0, 50); ?>....</p>
-              <div class="c-btn--news p-post-card__btn">
+              <!-- <div class="c-btn--news p-post-card__btn">
                 <a href="<?php the_permalink(); ?>">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/common/post-btn02.jpg" alt="ボタン画像２" />
                   <img src="<?php echo get_template_directory_uri(); ?>/images/common/post-btn01.jpg" alt="ボタン画像２" />
-                </a>
+                </a> -->
               </div>
             </div>
           </div>

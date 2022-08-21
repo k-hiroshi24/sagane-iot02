@@ -4,8 +4,8 @@
 <section class="section-head">
   <div class="section-head__inner l-inner">
     <div class="c-section-head">
-      <h1>事例とノウハウ</h1>
-      <p>導入事例のご紹介 </p>
+      <!-- <h1>事例とノウハウ</h1>
+      <p>導入事例のご紹介 </p> -->
     </div>
   </div>
 </section>
@@ -15,31 +15,28 @@
     <div class="c-sub-head__logo">
       <img src="<?php echo get_template_directory_uri(); ?>/images/common/logo-title-black.png" alt="ロゴ">
     </div>
-    <h2 class="c-sub-head__title">導入事例・活用事例を通して<br> スマートファクトリー導入のヒントを探る！</h2>
+    <!-- <h2 class="c-sub-head__title">導入事例・活用事例を通して<br> スマートファクトリー導入のヒントを探る！</h2> -->
     <br>
     <h2 class="c-sub-head__title">だだ今準備中です。</h2>
+    <p>現在ページの準備を進めております。今しばらくお待ちください</p>
+
   </div>
 </div>
 <!--タブ-->
-<!-- <ul class="tab-group l-inner">
-      <li class="tab is-active case01">記事で読む導入事例</li>
-      <li class="tab case02">動画でみる活用事例</li>
-      <li class="tab case03">ノウハウ・コラム</li>
-    </ul> -->
 <div class="p-service-tab p-service-content01" id="js-tab">
   <div class="p-service-tab__nav l-inner">
-    <a href="<?php echo home_url(); ?>/works" class="p-service-tab__nav-item is-active contents01" data-nav="0">記事で読む導入事例</a>
+    <!-- <a href="<?php echo home_url(); ?>/works" class="p-service-tab__nav-item is-active contents01" data-nav="0">記事で読む導入事例</a>
     <a href="<?php echo home_url(); ?>/movie" class="p-service-tab__nav-item contents02" data-nav="1">動画でみる活用事例</a>
-    <a href="<?php echo home_url(); ?>/column" class="p-service-tab__nav-item contents03" data-nav="2">ノウハウ・コラム</a>
+    <a href="<?php echo home_url(); ?>/column" class="p-service-tab__nav-item contents03" data-nav="2">ノウハウ・コラム</a> -->
   </div>
   <!-- 記事で読む導入事例 -->
   <div class="p-service-tab__content" data-content="0">
     <!-- <div class="panel"> -->
     <div class="panel__title" id="post">
       <figure class="panel__logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/common/logo-post02.png" alt="記事で読む導入事例のロゴ">
+        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/common/logo-post02.png" alt="記事で読む導入事例のロゴ"> -->
       </figure>
-      <h3>記事で読む導入事例</h3>
+      <!-- <h3>記事で読む導入事例</h3> -->
     </div>
     <!-- カード -->
     <div class="p-post-cards">

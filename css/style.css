@@ -166,7 +166,10 @@ body {
 .checkbox__item .checkbox-item:checked + span::after {
 	opacity: 1;
 }
-
+.p-contact-page__c-form-inner.error{
+	color: red
+	;
+}
 
 
 /* 404 */
@@ -2220,7 +2223,7 @@ input.form__input:checked ~ .checkbox__label::after {
 .submit-wrap02 {
 	position: relative;
 	display: flex;
-	
+
 }
 
 /* .submit-wrap02::after {

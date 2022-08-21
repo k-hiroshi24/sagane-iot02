@@ -7,7 +7,7 @@
   <meta name="format-detection" content="telephone=no" />
   <!-- meta情報 -->
   <title>サガネ係長のIoT</title>
-  <meta name="description" content="「サガネ係長のIoT」は、日進製作所の製造現場で厳格な生産管理を行う現場係長の視点から、費用対効果を生み出すことにこだわって開発されたIoTシステムです。" />
+  <meta name="description" content="日進製作所の製造現場で厳格な生産管理を行う現場係長の視点から、費用対効果を生み出すことにこだわって開発されたIoTシステムです。" />
   <meta name="keywords" content="サガネ,サガネ係長,サガネ係長のIoT,日進IoT,IoT" />
   <!-- ogp -->
   <!-- <meta property="og:title" content="" />

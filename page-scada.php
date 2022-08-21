@@ -16,7 +16,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/common/item-logo04.png" alt="ロゴ">
     </div>
     <h2 class="c-sub-head__title">SCADAパッケージソフト「サガネ係長のIoT」で<br class="pc"> 現場の情報管理業務をすべてまとめて自動化。</h2>
-    <p>品質マネジメントシステム対応可能<span>• ISO9001</span><span>• IATF16949</span></p>
+    <p>品質マネジメントシステム対応可能<br class="sp"><span>• ISO9001</span><span>• IATF16949</span></p>
   </div>
 </div>
 <!-- sec1 -->
